@@ -116,7 +116,6 @@ function runPagesFilter() {
             } else { // Фільтрувати якщо текст має текст в середині
                 return key[compare].toLowerCase().includes(input.toLowerCase());
             }
-
         });
     }
 }
